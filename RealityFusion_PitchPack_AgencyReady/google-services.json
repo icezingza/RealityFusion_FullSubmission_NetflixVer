@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "655816124243",
+    "project_id": "namo-legacy-identity",
+    "storage_bucket": "namo-legacy-identity.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655816124243:android:4a76eb39ce5aebad6be3a6",
+        "android_client_info": {
+          "package_name": "com.icezingza.namoai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655816124243-6qdmkih82ktvofp8uofef3n79qdvtlrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIRJnDygdxmDqCJT_MutUZ4mSHNhj2P1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655816124243-6qdmkih82ktvofp8uofef3n79qdvtlrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

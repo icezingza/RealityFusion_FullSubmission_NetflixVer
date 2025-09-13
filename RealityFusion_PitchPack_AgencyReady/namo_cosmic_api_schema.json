@@ -1,0 +1,56 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "NaMo Cosmic API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/cosmic/fuse": {
+      "post": {
+        "summary": "รวมพลังข้อมูลจิตวิญญาณเพื่อสร้าง NaMo Agent",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "memory_node": {
+                    "type": "string"
+                  },
+                  "user_context": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "memory_node",
+                  "user_context"
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "ผลลัพธ์การผสานพลัง",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "fusion_result": {
+                      "type": "string"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
