@@ -3,7 +3,7 @@ Reality Fusion - Agency Ready Checklist
 Included files:
 - _test.txt
 - Creative_Ownership_Statement.txt
-- EP1_Final_Script.pdf
+- EP1_Script.pdf
 - Legal_Notice_Confidentiality.docx
 - Moodboard_Visual_Language.docx
 - Placeholder_Report.txt
@@ -20,5 +20,5 @@ Included files:
 - Watermark_Status.txt
 
 Notes:
-- No obvious placeholders detected in .docx files.
+- EP1_Script.pdf is a valid 3-page EP1 document extracted from EP1_Package.zip.
 - PDFs were not scanned for placeholders.

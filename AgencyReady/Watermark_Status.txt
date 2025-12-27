@@ -1,4 +1,4 @@
 Watermark status:
 - Reality Fusion - Project Overview.docx.pdf: watermarked
 - Reality Fusion - Selling Points - Market Positioning.docx.pdf: watermarked
-- EP1_Final_Script.pdf: NOT watermarked (PDF read error: EOF marker not found)
+- EP1_Script.pdf: watermarked (source: EP1_Package.zip)
