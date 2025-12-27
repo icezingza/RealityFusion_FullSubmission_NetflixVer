@@ -1,17 +1,19 @@
 Reality Fusion - Agency Ready Checklist
 
 Included files:
-- EP1_วันสุดท้ายของเสียงพูด.docx
+- _test.txt
+- EP1_Final_Script.pdf
 - Moodboard_Visual_Language.docx
+- Placeholder_Report.txt
 - Query_Letter.docx
 - Reality Fusion - Project Overview.docx.pdf
 - Reality Fusion - Selling Points - Market Positioning.docx.pdf
 - Reality_Fusion_Pitch_Deck.docx
 - RealityFusion_Cover_Letter_Netflix.docx
+- RealityFusion_NaMo_Executive_Summary_EN.docx
+- RealityFusion_NaMo_OnePage_Slide_EN.docx
 - Series_Synopsis.docx
 
 Notes:
-- Potential placeholders found in:
-  * EP1_วันสุดท้ายของเสียงพูด.docx
-  * Query_Letter.docx
+- No obvious placeholders detected in .docx files.
 - PDFs were not scanned for placeholders.
