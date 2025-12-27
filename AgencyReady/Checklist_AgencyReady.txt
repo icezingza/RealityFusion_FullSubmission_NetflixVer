@@ -13,8 +13,11 @@ Included files:
 - Reality_Fusion_Pitch_Deck.docx
 - RealityFusion_Cover_Letter_Netflix.docx
 - RealityFusion_NaMo_Executive_Summary_EN.docx
+- RealityFusion_NaMo_Executive_Summary_TH.docx
 - RealityFusion_NaMo_OnePage_Slide_EN.docx
+- RealityFusion_NaMo_OnePage_Slide_TH.docx
 - Series_Synopsis.docx
+- Watermark_Status.txt
 
 Notes:
 - No obvious placeholders detected in .docx files.
