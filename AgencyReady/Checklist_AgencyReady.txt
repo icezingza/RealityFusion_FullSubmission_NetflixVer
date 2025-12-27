@@ -2,6 +2,7 @@ Reality Fusion - Agency Ready Checklist
 
 Included files:
 - _test.txt
+- Creative_Ownership_Statement.txt
 - EP1_Final_Script.pdf
 - Moodboard_Visual_Language.docx
 - Placeholder_Report.txt
