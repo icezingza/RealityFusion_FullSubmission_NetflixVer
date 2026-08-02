@@ -1,17 +1,28 @@
 # REALITY FUSION — CURRENT CANON
 
-Version: 2.0
-Status: Canon Lock
+Version: 2.1
+Status: CANON LOCK
+Last verified: 2026-08-02
 
 ## Source of Truth
 
-1. This file (`CANON.md`)
-2. `screenplays/EP1` through `screenplays/EP5` Master Draft v2.0
-3. Future Continuity Bible v2.0
-4. Future Character Bible v2.0
-5. Future Series Bible v2.0
-6. Supporting documents revised to v2.0
-7. Legacy documents for historical reference only
+Use the following order when documents conflict:
+
+1. `CANON.md`
+2. Master Draft v2.0 screenplays:
+   - `screenplays/EP1/Reality_Fusion_EP1_Master_Draft_v2.0.md`
+   - `screenplays/EP2/Reality_Fusion_EP2_Master_Draft_v2.0.md`
+   - `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.0.md`
+   - `screenplays/EP4/Reality_Fusion_EP4_Master_Draft_v2.0.md`
+   - `screenplays/EP5/Reality_Fusion_EP5_Master_Draft_v2.0.md`
+3. `canon/Continuity_Bible_v2.0.md`
+4. `canon/Character_Bible_v2.0.md`
+5. `canon/Series_Bible_v2.0.md`
+6. `canon/Technology_and_Terminology_Glossary_v2.0.md`
+7. Pitch, review, and visual documents explicitly marked v2.0 or later
+8. Legacy documents for historical reference only
+
+Supporting documents must never silently override a higher-ranked source.
 
 ## Core Relationship
 
@@ -87,3 +98,28 @@ Documents containing Soul-K.Ice, Soul Anchor, reunion-through-resurrection, immo
 `LEGACY / PRE-CANON-REVISION`
 
 Legacy material must not be merged into Master Draft v2.0 automatically.
+
+The existence of `archive/legacy-canon/LEGACY_CANON_NOTICE.md` does not by itself prove that all legacy files have been migrated. Migration must be verified file by file in the repository manifest.
+
+## Readiness Boundaries
+
+The following are complete:
+
+- Master Draft v2.0 for EP1–EP5
+- Canon lock and current-canon support documents
+- Episode-level whole-series development review
+- English logline, synopsis, episode guide, creator statement, one-page pitch, and pitch-deck copy
+
+The following must not be reported as complete until evidence exists:
+
+- scene-by-scene audit of all five episodes;
+- final dialogue polish;
+- formatted screenplay page counts;
+- timed Thai table reads;
+- final runtime declarations;
+- specialist verification of Buddhist, medical, privacy, and AI-governance terminology;
+- complete migration of legacy files;
+- locked DOCX/PDF production-submission package;
+- verified submission archive with checksum.
+
+Any future status report must distinguish planning documents from completed validation work.
