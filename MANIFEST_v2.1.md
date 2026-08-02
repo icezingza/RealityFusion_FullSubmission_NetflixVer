@@ -1,6 +1,6 @@
 # REALITY FUSION — VERIFIED REPOSITORY MANIFEST
 
-Version: 2.2  
+Version: 2.3  
 Verification date: 2026-08-02  
 Branch: `main`
 
@@ -10,13 +10,14 @@ This manifest records files whose existence or commit history has been verified 
 
 ## A. Verified Master Screenplays
 
-| Episode | Path | Commit |
-|---|---|---|
-| EP1 | `screenplays/EP1/Reality_Fusion_EP1_Master_Draft_v2.0.md` | `28b05aa96cf48374cc59f3ba54fbba11a18c1b95` |
-| EP2 | `screenplays/EP2/Reality_Fusion_EP2_Master_Draft_v2.0.md` | `e3815c6edcbd9852bf08b6e693b92b12e8d7015a` |
-| EP3 | `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.0.md` | `cc3c3df76f34145fa44945701f1968f763650356` |
-| EP4 | `screenplays/EP4/Reality_Fusion_EP4_Master_Draft_v2.0.md` | `c6bcc34bb561af732939f041907053c4d2f94cab` |
-| EP5 | `screenplays/EP5/Reality_Fusion_EP5_Master_Draft_v2.0.md` | `591a9d18850b339551ccdda0802b22215109603f` |
+| Episode | Path | Commit | Status |
+|---|---|---|---|
+| EP1 | `screenplays/EP1/Reality_Fusion_EP1_Master_Draft_v2.0.md` | `28b05aa96cf48374cc59f3ba54fbba11a18c1b95` | CURRENT |
+| EP2 | `screenplays/EP2/Reality_Fusion_EP2_Master_Draft_v2.0.md` | `e3815c6edcbd9852bf08b6e693b92b12e8d7015a` | CURRENT |
+| EP3 | `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.1.md` | `3cc9bac4a8f27908c28a98405dda89cd683bcdae` | CURRENT — CONTINUITY CORRECTION |
+| EP3 historical | `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.0.md` | `cc3c3df76f34145fa44945701f1968f763650356` | PRESERVED HISTORY |
+| EP4 | `screenplays/EP4/Reality_Fusion_EP4_Master_Draft_v2.0.md` | `c6bcc34bb561af732939f041907053c4d2f94cab` | CURRENT |
+| EP5 | `screenplays/EP5/Reality_Fusion_EP5_Master_Draft_v2.0.md` | `591a9d18850b339551ccdda0802b22215109603f` | CURRENT |
 
 ## B. Verified Canon Documents
 
@@ -33,12 +34,14 @@ This manifest records files whose existence or commit history has been verified 
 - `reviews/Reality_Fusion_Whole_Series_Review_v1.0.md`
 - `reviews/Reality_Fusion_Dialogue_and_Runtime_Pass_v1.0.md`
 - `reviews/Reality_Fusion_Scene_Inventory_and_Structural_Audit_v1.0.md`
+- `reviews/Reality_Fusion_Master_Draft_v2.1_Revision_Plan.md`
 
 Classification note:
 
 - `Reality_Fusion_Whole_Series_Review_v1.0.md` is an episode-level development review.
 - `Reality_Fusion_Dialogue_and_Runtime_Pass_v1.0.md` is a review framework and validation plan, not evidence that dialogue polish, page audit, table read, or runtime validation has been completed.
 - `Reality_Fusion_Scene_Inventory_and_Structural_Audit_v1.0.md` inventories all 52 numbered scenes and records Objective / Conflict / Turning Point / Revision Risk for each scene.
+- `Reality_Fusion_Master_Draft_v2.1_Revision_Plan.md` records the creator-approved EP3 continuity correction and version-control boundaries.
 
 ## D. Verified Current-Canon Pitch Documents
 
@@ -77,23 +80,25 @@ The verified current documents consistently require:
 - NaMo rejects sole permanent authority;
 - Mira and the community inherit the right and duty to challenge the system.
 
-## G. Open Canon/Continuity Finding
+## G. Resolved Canon/Continuity Finding
 
-The scene audit identified one critical conflict:
+The EP3/EP5 name conflict has been corrected.
 
-- EP3 Scene 2 includes a child named `Mira` before Khru Ba Ice dies.
-- Current Continuity Bible states that Mira first appears in EP5 as a survivor child 143 years later.
+- EP3 v2.0 used the name `มิรา` for a student before Khru Ba Ice died.
+- EP3 v2.1 renames that student to `พิม` in every affected scene.
+- EP5 retains `มิรา / Mira` as the survivor child who first appears 143 years later.
+- EP3 v2.0 remains preserved and unmodified for revision history.
 
-Recommended correction for Master Draft v2.1: rename the EP3 child and reserve `Mira` for EP5.
+Verification result:
 
-Until corrected, Canon consistency remains `CONDITIONALLY PASS`.
+- EP3 v2.1 contains no `มิรา` references.
+- Canon consistency for this finding: `PASS`.
 
 ## H. Not Yet Verified as Complete
 
 The following must remain marked pending:
 
-- dialogue revisions applied to Master Draft v2.1;
-- correction of the EP3/EP5 Mira continuity conflict;
+- broader dialogue revisions beyond the approved EP3 name correction;
 - screenplay-formatted DOCX/PDF for every episode;
 - page counts and timed Thai table reads;
 - final runtime report;
@@ -112,6 +117,6 @@ Use only these labels:
 - `PLANNED` — requirement documented but work not yet performed.
 - `PENDING EXTERNAL REVIEW` — requires qualified human specialist or production process.
 - `LEGACY` — historical material not part of current canon.
-- `CONDITIONALLY PASS` — structurally aligned but contains a documented conflict requiring correction.
+- `PASS` — the specified verification condition has been met.
 
 Do not use `Production Ready`, `Locked`, or `Submission Ready` for the entire package until all items in Section H are resolved or explicitly waived by the creator.
