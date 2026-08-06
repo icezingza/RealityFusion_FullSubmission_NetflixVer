@@ -16,6 +16,7 @@ This index identifies the current-canon files to use when preparing a tailored a
 | Episode guide | `pitch-package/en/Reality_Fusion_Episode_Guide_EN_v2.0.md` |
 | Creator statement | `pitch-package/en/Reality_Fusion_Creator_Statement_EN_v2.0.md` |
 | Pitch-deck copy | `pitch-package/en/Reality_Fusion_Pitch_Deck_Copy_EN_v2.0.md` |
+| Designed pitch deck | `deliverables/pitch-deck/Reality_Fusion_Pitch_Deck_v1.0.pptx` |
 | Current screenplay sample | `deliverables/current-screenplays/pdf/Reality_Fusion_EP1_Master_Draft_v2.1.pdf` |
 | Full current screenplay set | `deliverables/current-screenplays/` |
 | Current canon and continuity source | `CANON.md` and `canon/` |
@@ -31,7 +32,7 @@ This index identifies the current-canon files to use when preparing a tailored a
 
 1. Check the recipient's current submission policy before sending any material.
 2. Send only the files they request. Default starting set: one-page pitch, logline/synopsis, creator statement, episode guide, and the EP1 PDF only when a script sample is requested.
-3. Use the pitch-deck copy only after visual assets have been selected and cleared for use.
+3. Use the designed pitch deck only after the creator approves the visual asset and the recipient's policy permits the format.
 4. Record recipient, date, submitted files, requested format, and response in a private submission log. Do not place confidential correspondence in this repository.
 5. Do not represent any external review, rights clearance, budget, production schedule, runtime, attachment, financing, or recipient interest as complete unless separately documented.
 
