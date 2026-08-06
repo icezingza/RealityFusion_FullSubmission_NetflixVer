@@ -1,6 +1,6 @@
 # REALITY FUSION — VERIFIED REPOSITORY MANIFEST
 
-Version: 3.0  
+Version: 3.1  
 Verification date: 2026-08-06  
 Branch: `main`
 
@@ -21,7 +21,8 @@ This manifest records files whose existence or commit history has been verified 
 | EP3 historical | `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.0.md` | `cc3c3df76f34145fa44945701f1968f763650356` | PRESERVED HISTORY |
 | EP4 | `screenplays/EP4/Reality_Fusion_EP4_Master_Draft_v2.1.md` | `6c772823e914ef05e1ceacc0e6e89cefbde05b90` | CURRENT — CONTROLLED DIALOGUE AND INSTITUTIONAL STAKES POLISH |
 | EP4 historical | `screenplays/EP4/Reality_Fusion_EP4_Master_Draft_v2.0.md` | `c6bcc34bb561af732939f041907053c4d2f94cab` | PRESERVED HISTORY |
-| EP5 | `screenplays/EP5/Reality_Fusion_EP5_Master_Draft_v2.0.md` | `591a9d18850b339551ccdda0802b22215109603f` | CURRENT |
+| EP5 | `screenplays/EP5/Reality_Fusion_EP5_Master_Draft_v2.1.md` | `2b688233ad1e0ec92b9afb0ac89d61a3db744c20` | CURRENT — CONTROLLED DIALOGUE AND GOVERNANCE POLISH |
+| EP5 historical | `screenplays/EP5/Reality_Fusion_EP5_Master_Draft_v2.0.md` | `591a9d18850b339551ccdda0802b22215109603f` | PRESERVED HISTORY |
 
 ## B. Verified Canon Documents
 
@@ -51,7 +52,7 @@ Classification note:
 - The dialogue/runtime document is a framework and validation plan, not proof of completed table read or runtime validation.
 - The scene inventory covers all 52 numbered scenes.
 - EP1–EP5 dialogue-and-scene polish audits are verified review deliverables.
-- EP1–EP4 recommendations have now been applied to current screenplay revisions.
+- The approved recommendations have now been applied to current screenplay revisions for all five episodes.
 
 ## D. Verified Current-Canon Pitch Documents
 
@@ -90,68 +91,62 @@ The verified current documents consistently require:
 - NaMo rejects sole permanent authority;
 - Mira and the community inherit the right and duty to challenge the system.
 
-## G. Resolved Findings
+## G. Current Screenplay Revision Results
 
-### EP3/EP5 name conflict
+### EP1
 
-- EP3 uses `พิม` for the pre-collapse student.
-- EP5 retains `มิรา / Mira` as the survivor child 143 years later.
-- Verification result: `PASS`.
+EP1 v2.1 retains eight scenes, grounded technology, the Pali-reading error, and current Canon. Verification result: `PASS`.
 
-### EP1 controlled dialogue polish
+### EP2
 
-EP1 v2.1 exists on `main`, retains eight scenes and current Canon, and preserves v2.0 as history. Verification result: `PASS`.
+EP2 v2.1 retains nine scenes, privacy boundaries, the edited-clip consequence, Nont's return, and a restricted safeguarding workflow. Verification result: `PASS`.
 
-### EP2 controlled dialogue and safeguarding polish
+Important limitation: safeguarding remains a dramatic representation requiring qualified external review.
 
-EP2 v2.1 exists on `main`, retains nine scenes and current Canon, and preserves v2.0 as history. The safeguarding workflow remains a dramatic representation requiring qualified external review. Verification result: `PASS`.
+### EP3
 
-### EP3 controlled dialogue polish
+EP3 v2.2 retains fourteen scenes, the Phim continuity correction, irreversible death, the original-recording / generated-speech boundary, distributed governance, and the 143-year / 31% bridge. Verification result: `PASS`.
 
-EP3 v2.2 exists on `main`, retains fourteen scenes, preserves the Phim correction, strict original-recording / generated-speech boundary, irreversible death, distributed governance, and the 143-year / 31% bridge. Verification result: `PASS`.
+### EP4
 
-### EP4 controlled dialogue and institutional-stakes polish
+EP4 v2.1 retains ten scenes, 143 years, 31% recoverable data, the low-power signal ending, Ethari's institutional cost, and the refusal to open generated speech. Verification result: `PASS`.
 
-EP4 v2.1 was created from the verified EP4 v2.0 source and the approved EP4 polish audit.
+### EP5
+
+EP5 v2.1 was created from the verified EP5 v2.0 source and the approved EP5 polish audit.
 
 Applied scope:
 
-- preserved all ten scenes, 143 years, 31% recoverable data, and the low-power contact ending;
-- clarified authenticated archival playback versus locked synthetic voice models;
-- compressed repeated explanation of recovery, restoration, and posthumous voice reconstruction;
-- separated the researchers into safety, systems-research, and operations functions;
-- gave Ethari a visible institutional cost: personal-liability override, suspended laboratory authority, and loss of one survey cycle for the Earth mission;
-- preserved NaMo's refusal to open generated speech;
-- kept the memory core as a technical identity-continuity device, not a soul container;
-- reduced the final lesson log and preserved NaMo's walk toward the survivor community;
-- preserved EP4 v2.0 as revision history.
+- preserved all eleven scenes and the final Node 05 message;
+- reduced procedural exposition in Scenes 4–6;
+- gave the elderly man a concrete survival reason for urgent restoration through failing medical cold storage and limited power;
+- separated emergency limited access from permanent system authority;
+- converted governance principles into observable controls: two human approvers, time limits, purpose limits, and an audit log;
+- differentiated community voices through medicine, water, food, repair, and accountability concerns;
+- preserved Mira's short, skeptical voice and her right to challenge the system;
+- compressed the repeated voice-model explanation in Scenes 8 and 10 while preserving NaMo's admitted desire to listen;
+- reduced the final lesson log;
+- preserved Mira's final `ได้ยิน` and NaMo's silence;
+- preserved EP5 v2.0 as revision history.
 
 Verification result: `PASS`.
 
 Important limitations:
 
-- alien mission operations, memory-core terminology, identity continuity, and recovery mechanics remain fictional dramatic representations requiring technology/production review;
+- governance, privacy, emergency-access, identity, and network-control mechanisms remain dramatic representations requiring qualified external review;
 - no table-read, page-count, or runtime claim is made.
 
-## H. Completed Dialogue Audit Awaiting Script Revision
+## H. Current Internal Screenplay Status
 
-### EP5
-
-Review status: `VERIFIED COMPLETE`.
-
-Pending screenplay actions:
-
-- reduce procedural exposition in Scenes 4–6;
-- give the elderly man a concrete survival-based argument for central restoration;
-- turn at least one governance rule into an immediate action or system constraint;
-- compress repeated voice-model explanation;
-- reduce the final lesson log while preserving Mira’s `ได้ยิน` and NaMo’s silence.
+- Scene inventory across EP1–EP5: `VERIFIED COMPLETE`.
+- Dialogue-and-scene polish audits across EP1–EP5: `VERIFIED COMPLETE`.
+- Current revised screenplay files across EP1–EP5: `VERIFIED PRESENT` and individually marked `PASS` for the approved internal revision scope.
+- Production lock: not reached.
 
 ## I. Not Yet Verified as Complete
 
 The following must remain marked pending:
 
-- EP5 Master Draft v2.1;
 - screenplay-formatted DOCX/PDF for every episode;
 - page counts and timed Thai table reads;
 - final runtime report;
