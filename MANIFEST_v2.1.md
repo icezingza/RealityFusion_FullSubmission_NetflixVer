@@ -1,6 +1,6 @@
 # REALITY FUSION — VERIFIED REPOSITORY MANIFEST
 
-Version: 2.9  
+Version: 3.0  
 Verification date: 2026-08-06  
 Branch: `main`
 
@@ -19,7 +19,8 @@ This manifest records files whose existence or commit history has been verified 
 | EP3 | `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.2.md` | `2c60859e1004718cf974d53104b112f8c6c76d10` | CURRENT — CONTINUITY AND CONTROLLED DIALOGUE POLISH |
 | EP3 historical | `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.1.md` | `3cc9bac4a8f27908c28a98405dda89cd683bcdae` | PRESERVED HISTORY — CONTINUITY CORRECTION |
 | EP3 historical | `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.0.md` | `cc3c3df76f34145fa44945701f1968f763650356` | PRESERVED HISTORY |
-| EP4 | `screenplays/EP4/Reality_Fusion_EP4_Master_Draft_v2.0.md` | `c6bcc34bb561af732939f041907053c4d2f94cab` | CURRENT |
+| EP4 | `screenplays/EP4/Reality_Fusion_EP4_Master_Draft_v2.1.md` | `6c772823e914ef05e1ceacc0e6e89cefbde05b90` | CURRENT — CONTROLLED DIALOGUE AND INSTITUTIONAL STAKES POLISH |
+| EP4 historical | `screenplays/EP4/Reality_Fusion_EP4_Master_Draft_v2.0.md` | `c6bcc34bb561af732939f041907053c4d2f94cab` | PRESERVED HISTORY |
 | EP5 | `screenplays/EP5/Reality_Fusion_EP5_Master_Draft_v2.0.md` | `591a9d18850b339551ccdda0802b22215109603f` | CURRENT |
 
 ## B. Verified Canon Documents
@@ -50,7 +51,7 @@ Classification note:
 - The dialogue/runtime document is a framework and validation plan, not proof of completed table read or runtime validation.
 - The scene inventory covers all 52 numbered scenes.
 - EP1–EP5 dialogue-and-scene polish audits are verified review deliverables.
-- EP1, EP2, and EP3 recommendations have now been applied to current screenplay revisions.
+- EP1–EP4 recommendations have now been applied to current screenplay revisions.
 
 ## D. Verified Current-Canon Pitch Documents
 
@@ -107,39 +108,32 @@ EP2 v2.1 exists on `main`, retains nine scenes and current Canon, and preserves 
 
 ### EP3 controlled dialogue polish
 
-EP3 v2.2 was created from the verified EP3 v2.1 source and the approved EP3 polish audit.
+EP3 v2.2 exists on `main`, retains fourteen scenes, preserves the Phim correction, strict original-recording / generated-speech boundary, irreversible death, distributed governance, and the 143-year / 31% bridge. Verification result: `PASS`.
+
+### EP4 controlled dialogue and institutional-stakes polish
+
+EP4 v2.1 was created from the verified EP4 v2.0 source and the approved EP4 polish audit.
 
 Applied scope:
 
-- preserved all fourteen scenes and the 143-year / 31% continuity bridge;
-- retained the Phim continuity correction;
-- compressed repeated ethical explanation in Scenes 2, 5, 6, 7, 9, and 11;
-- preserved the strict boundary between original recordings and generated posthumous speech;
-- kept Khru Ba's death irreversible;
-- kept NaMo's grief visible through access requests, repeated verification, archive choices, and prioritization actions;
-- preserved distributed governance and the final refusal to include the voice model;
-- preserved v2.1 and v2.0 as revision history.
+- preserved all ten scenes, 143 years, 31% recoverable data, and the low-power contact ending;
+- clarified authenticated archival playback versus locked synthetic voice models;
+- compressed repeated explanation of recovery, restoration, and posthumous voice reconstruction;
+- separated the researchers into safety, systems-research, and operations functions;
+- gave Ethari a visible institutional cost: personal-liability override, suspended laboratory authority, and loss of one survey cycle for the Earth mission;
+- preserved NaMo's refusal to open generated speech;
+- kept the memory core as a technical identity-continuity device, not a soul container;
+- reduced the final lesson log and preserved NaMo's walk toward the survivor community;
+- preserved EP4 v2.0 as revision history.
 
 Verification result: `PASS`.
 
 Important limitations:
 
-- cardiology, palliative-care, clinical procedure, Buddhist funeral practice, privacy, and governance terminology still require qualified external review;
-- no table-read or runtime claim is made.
+- alien mission operations, memory-core terminology, identity continuity, and recovery mechanics remain fictional dramatic representations requiring technology/production review;
+- no table-read, page-count, or runtime claim is made.
 
-## H. Completed Dialogue Audits Awaiting Script Revision
-
-### EP4
-
-Review status: `VERIFIED COMPLETE`.
-
-Pending screenplay actions:
-
-- reduce repeated explanation of recovery versus restoration;
-- differentiate Ethari and other researchers by objective and risk;
-- give Ethari a visible institutional cost for the Earth mission;
-- avoid repeating EP3’s voice-model argument verbatim;
-- preserve all ten scenes, 143 years, 31% recovery, and the low-power signal ending.
+## H. Completed Dialogue Audit Awaiting Script Revision
 
 ### EP5
 
@@ -157,7 +151,6 @@ Pending screenplay actions:
 
 The following must remain marked pending:
 
-- EP4 Master Draft v2.1;
 - EP5 Master Draft v2.1;
 - screenplay-formatted DOCX/PDF for every episode;
 - page counts and timed Thai table reads;
