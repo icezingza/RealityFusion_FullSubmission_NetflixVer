@@ -1,6 +1,6 @@
 # REALITY FUSION — VERIFIED REPOSITORY MANIFEST
 
-Version: 2.6  
+Version: 2.7  
 Verification date: 2026-08-06  
 Branch: `main`
 
@@ -14,7 +14,8 @@ This manifest records files whose existence or commit history has been verified 
 |---|---|---|---|
 | EP1 | `screenplays/EP1/Reality_Fusion_EP1_Master_Draft_v2.1.md` | `568d3eda24777d5c7db99470e25d4bbfb839a62d` | CURRENT — CONTROLLED DIALOGUE POLISH |
 | EP1 historical | `screenplays/EP1/Reality_Fusion_EP1_Master_Draft_v2.0.md` | `28b05aa96cf48374cc59f3ba54fbba11a18c1b95` | PRESERVED HISTORY |
-| EP2 | `screenplays/EP2/Reality_Fusion_EP2_Master_Draft_v2.0.md` | `e3815c6edcbd9852bf08b6e693b92b12e8d7015a` | CURRENT — AUDIT COMPLETE / REVISION PENDING |
+| EP2 | `screenplays/EP2/Reality_Fusion_EP2_Master_Draft_v2.1.md` | `a9b4ec1623a0e50d4ae2260a2b52329b7d0bad16` | CURRENT — CONTROLLED DIALOGUE AND SAFEGUARDING POLISH |
+| EP2 historical | `screenplays/EP2/Reality_Fusion_EP2_Master_Draft_v2.0.md` | `e3815c6edcbd9852bf08b6e693b92b12e8d7015a` | PRESERVED HISTORY |
 | EP3 | `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.1.md` | `3cc9bac4a8f27908c28a98405dda89cd683bcdae` | CURRENT — CONTINUITY CORRECTION |
 | EP3 historical | `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.0.md` | `cc3c3df76f34145fa44945701f1968f763650356` | PRESERVED HISTORY |
 | EP4 | `screenplays/EP4/Reality_Fusion_EP4_Master_Draft_v2.0.md` | `c6bcc34bb561af732939f041907053c4d2f94cab` | CURRENT |
@@ -46,7 +47,7 @@ Classification note:
 - `Reality_Fusion_Scene_Inventory_and_Structural_Audit_v1.0.md` inventories all 52 numbered scenes and records Objective / Conflict / Turning Point / Revision Risk for each scene.
 - `Reality_Fusion_Master_Draft_v2.1_Revision_Plan.md` records the creator-approved EP3 continuity correction and version-control boundaries.
 - `EP1_Dialogue_and_Scene_Polish_Audit_v1.0.md` is the approved basis for EP1 Master Draft v2.1.
-- `EP2_Dialogue_and_Scene_Polish_Audit_v1.0.md` completes the EP2 scene/dialogue review and identifies a child-safeguarding issue requiring qualified external review before production lock.
+- `EP2_Dialogue_and_Scene_Polish_Audit_v1.0.md` is the approved basis for EP2 Master Draft v2.1.
 
 ## D. Verified Current-Canon Pitch Documents
 
@@ -104,58 +105,57 @@ Applied scope:
 - compressed thesis-like dialogue in Scenes 3, 4, 5, and 7;
 - preserved Khru Ba Ice's practical, question-driven voice;
 - kept NaMo procedural rather than prematurely emotionally mature;
-- added a visible callback in Scene 6: NaMo identifies a person requesting help and does not immediately pressure Khru Ba to return to the system task;
-- reduced the final lesson log from three observations to two;
+- added a visible callback in Scene 6;
+- reduced the final lesson log;
 - retained all eight scenes, the Pali-reading error, grounded technology, teacher–student relationship, and original ending.
+
+Verification result: `PASS`.
+
+### EP2 controlled dialogue and safeguarding polish
+
+EP2 v2.1 was created from the verified v2.0 source and the approved EP2 polish audit.
+
+Applied scope:
+
+- preserved all nine scenes and the original scene order;
+- compressed thesis-like dialogue in the review, incident, and memory scenes;
+- retained the edited-clip consequence and Nont's return to class;
+- preserved privacy boundaries by blocking public export of the student's sensitive message;
+- added an observable restricted-access safeguarding alert, named responsible roles, and a scheduled follow-up;
+- kept the safeguarding content separate from the public audit dataset;
+- preserved the transition to the governance manual in EP3;
+- preserved the teacher–student relationship and current Canon.
 
 Verification result:
 
 - file exists on `main`;
-- header identifies `MASTER DRAFT v2.1 — CONTROLLED DIALOGUE POLISH`;
-- EP1 v2.0 remains preserved;
-- structural scene count remains eight;
+- header identifies `MASTER DRAFT v2.1 — CONTROLLED DIALOGUE AND SAFEGUARDING POLISH`;
+- EP2 v2.0 remains preserved;
+- structural scene count remains nine;
 - Canon status: `PASS`.
 
-## H. Open Review Findings
+Important limitation:
 
-### EP2 dialogue and safeguarding polish
+The safeguarding workflow is a dramatic representation, not a verified legal, clinical, or school-policy protocol. Qualified external review remains required before production lock.
 
-The EP2 audit is complete and confirms a strong nine-scene structure.
-
-Required revision areas:
-
-- reduce thesis-like dialogue in Scenes 4, 6, and 8;
-- preserve the privacy conflict through consent scope, redaction, restricted access, and anonymized review;
-- preserve Nont's imperfect correction and work-based reintegration;
-- keep NaMo procedural and show learning through changed system behavior;
-- clarify a restricted safeguarding escalation path for the vulnerable student without exposing identity;
-- preserve the unresolved succession question and governance-notebook ending.
-
-Status:
-
-- EP2 scene/dialogue audit: `VERIFIED COMPLETE`;
-- EP2 Master Draft v2.1: `PENDING`;
-- child safeguarding / mental-health review: `PENDING EXTERNAL REVIEW`;
-- page count, table read, and runtime validation: `PENDING EXTERNAL PROCESS`.
-
-## I. Not Yet Verified as Complete
+## H. Not Yet Verified as Complete
 
 The following must remain marked pending:
 
-- EP2 Master Draft v2.1 controlled dialogue and safeguarding revision;
 - EP4 and EP5 dialogue-and-scene polish audits;
 - broader EP4 and EP5 Master Draft v2.1 revisions;
 - any EP3 dialogue polish beyond the approved continuity correction;
 - screenplay-formatted DOCX/PDF for every episode;
 - page counts and timed Thai table reads;
 - final runtime report;
-- Buddhist, medical, safeguarding, privacy, and AI-governance specialist reviews;
+- Buddhist terminology review;
+- medical, child-safeguarding, privacy, and AI-governance specialist reviews;
 - complete legacy-file migration;
 - final legal documents with all blanks completed;
 - final production-submission ZIP and checksum;
 - automated GitHub Actions validation.
 
-## J. Status Vocabulary
+## I. Status Vocabulary
 
 Use only these labels:
 
@@ -163,8 +163,7 @@ Use only these labels:
 - `VERIFIED PRESENT` — file exists, but completion of the work it describes is not implied.
 - `PLANNED` — requirement documented but work not yet performed.
 - `PENDING EXTERNAL REVIEW` — requires qualified human specialist or production process.
-- `PENDING EXTERNAL PROCESS` — requires a table read, timed process, formatting process, or other production activity not completed in GitHub.
 - `LEGACY` — historical material not part of current canon.
 - `PASS` — the specified verification condition has been met.
 
-Do not use `Production Ready`, `Locked`, or `Submission Ready` for the entire package until all items in Section I are resolved or explicitly waived by the creator.
+Do not use `Production Ready`, `Locked`, or `Submission Ready` for the entire package until all items in Section H are resolved or explicitly waived by the creator.
