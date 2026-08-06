@@ -1,6 +1,6 @@
 # REALITY FUSION — VERIFIED REPOSITORY MANIFEST
 
-Version: 3.6
+Version: 3.7
 Verification date: 2026-08-06  
 Branch: `main`
 
@@ -84,6 +84,9 @@ English package:
 - `pitch-package/Reality_Fusion_Buyer_Submission_Package_v1.0.md`
 - `production/Reality_Fusion_Pitch_Readiness_Gate_v1.0.md`
 - `deliverables/pitch-deck/Reality_Fusion_Pitch_Deck_v1.0.pptx`
+- `production/Reality_Fusion_Production_Breakdown_Starter_v1.0.md`
+- `production/Reality_Fusion_Production_Brief_v1.0.md`
+- `production/Reality_Fusion_Table_Read_Session_Pack_v1.0.md`
 
 ## E. Verified Visual and Archive-Control Documents
 
