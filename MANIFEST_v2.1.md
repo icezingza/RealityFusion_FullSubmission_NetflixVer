@@ -1,6 +1,6 @@
 # REALITY FUSION — VERIFIED REPOSITORY MANIFEST
 
-Version: 3.1  
+Version: 3.2  
 Verification date: 2026-08-06  
 Branch: `main`
 
@@ -32,7 +32,7 @@ This manifest records files whose existence or commit history has been verified 
 - `canon/Continuity_Bible_v2.0.md`
 - `canon/Technology_and_Terminology_Glossary_v2.0.md`
 
-## C. Verified Review Documents
+## C. Verified Review and Production-Control Documents
 
 - `reviews/Reality_Fusion_Repository_Audit_v1.0.md`
 - `reviews/Reality_Fusion_Canon_Conflict_Report_v1.0.md`
@@ -45,6 +45,8 @@ This manifest records files whose existence or commit history has been verified 
 - `reviews/EP3_Dialogue_and_Scene_Polish_Audit_v1.0.md`
 - `reviews/EP4_Dialogue_and_Scene_Polish_Audit_v1.0.md`
 - `reviews/EP5_Dialogue_and_Scene_Polish_Audit_v1.0.md`
+- `reviews/Reality_Fusion_Current_Draft_Set_Verification_v1.0.md`
+- `production/Reality_Fusion_Table_Read_and_Runtime_Protocol_v1.0.md`
 
 Classification note:
 
@@ -52,7 +54,9 @@ Classification note:
 - The dialogue/runtime document is a framework and validation plan, not proof of completed table read or runtime validation.
 - The scene inventory covers all 52 numbered scenes.
 - EP1–EP5 dialogue-and-scene polish audits are verified review deliverables.
-- The approved recommendations have now been applied to current screenplay revisions for all five episodes.
+- The approved recommendations have been applied to current screenplay revisions for all five episodes.
+- The current-draft verification identifies the only active script set authorized for subsequent formatting and runtime work.
+- The table-read/runtime protocol is verified present, but has not yet been executed.
 
 ## D. Verified Current-Canon Pitch Documents
 
@@ -113,37 +117,38 @@ EP4 v2.1 retains ten scenes, 143 years, 31% recoverable data, the low-power sign
 
 ### EP5
 
-EP5 v2.1 was created from the verified EP5 v2.0 source and the approved EP5 polish audit.
+EP5 v2.1 retains eleven scenes, survival pressure, limited emergency authority, observable governance controls, the final Node 05 message, Mira's `ได้ยิน`, and NaMo's silence. Verification result: `PASS`.
 
-Applied scope:
-
-- preserved all eleven scenes and the final Node 05 message;
-- reduced procedural exposition in Scenes 4–6;
-- gave the elderly man a concrete survival reason for urgent restoration through failing medical cold storage and limited power;
-- separated emergency limited access from permanent system authority;
-- converted governance principles into observable controls: two human approvers, time limits, purpose limits, and an audit log;
-- differentiated community voices through medicine, water, food, repair, and accountability concerns;
-- preserved Mira's short, skeptical voice and her right to challenge the system;
-- compressed the repeated voice-model explanation in Scenes 8 and 10 while preserving NaMo's admitted desire to listen;
-- reduced the final lesson log;
-- preserved Mira's final `ได้ยิน` and NaMo's silence;
-- preserved EP5 v2.0 as revision history.
-
-Verification result: `PASS`.
-
-Important limitations:
-
-- governance, privacy, emergency-access, identity, and network-control mechanisms remain dramatic representations requiring qualified external review;
-- no table-read, page-count, or runtime claim is made.
+Important limitation: governance, privacy, emergency-access, identity, and network-control mechanisms remain dramatic representations requiring qualified external review.
 
 ## H. Current Internal Screenplay Status
 
 - Scene inventory across EP1–EP5: `VERIFIED COMPLETE`.
 - Dialogue-and-scene polish audits across EP1–EP5: `VERIFIED COMPLETE`.
 - Current revised screenplay files across EP1–EP5: `VERIFIED PRESENT` and individually marked `PASS` for the approved internal revision scope.
+- Current active draft-set identification: `VERIFIED COMPLETE`.
 - Production lock: not reached.
 
-## I. Not Yet Verified as Complete
+## I. Table Read and Runtime Status
+
+The following process control now exists:
+
+- `production/Reality_Fusion_Table_Read_and_Runtime_Protocol_v1.0.md`
+
+Protocol status: `VERIFIED PRESENT`.
+
+Execution status:
+
+- EP1 timed table read: `PENDING EXTERNAL PROCESS`
+- EP2 timed table read: `PENDING EXTERNAL PROCESS`
+- EP3 timed table read: `PENDING EXTERNAL PROCESS`
+- EP4 timed table read: `PENDING EXTERNAL PROCESS`
+- EP5 timed table read: `PENDING EXTERNAL PROCESS`
+- consolidated runtime and spoken-dialogue report: `PENDING`
+
+No runtime, page-count, or production-duration claim is made.
+
+## J. Not Yet Verified as Complete
 
 The following must remain marked pending:
 
@@ -157,7 +162,7 @@ The following must remain marked pending:
 - final production-submission ZIP and checksum;
 - automated GitHub Actions validation.
 
-## J. Status Vocabulary
+## K. Status Vocabulary
 
 Use only these labels:
 
@@ -165,7 +170,8 @@ Use only these labels:
 - `VERIFIED PRESENT` — file exists, but completion of the work it describes is not implied.
 - `PLANNED` — requirement documented but work not yet performed.
 - `PENDING EXTERNAL REVIEW` — requires qualified human specialist or production process.
+- `PENDING EXTERNAL PROCESS` — requires a timed human or production procedure.
 - `LEGACY` — historical material not part of current canon.
 - `PASS` — the specified verification condition has been met.
 
-Do not use `Production Ready`, `Locked`, or `Submission Ready` for the entire package until all items in Section I are resolved or explicitly waived by the creator.
+Do not use `Production Ready`, `Locked`, or `Submission Ready` for the entire package until all items in Section J are resolved or explicitly waived by the creator.
