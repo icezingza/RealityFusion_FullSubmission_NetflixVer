@@ -1,6 +1,6 @@
 # REALITY FUSION — VERIFIED REPOSITORY MANIFEST
 
-Version: 3.3  
+Version: 3.4
 Verification date: 2026-08-06  
 Branch: `main`
 
@@ -161,7 +161,6 @@ No runtime, page-count, or production-duration claim is made.
 
 The following must remain marked pending:
 
-- screenplay-formatted DOCX/PDF for every episode;
 - page counts and timed Thai table reads;
 - completed final runtime report;
 - Buddhist terminology and monastic-practice review;
@@ -171,7 +170,18 @@ The following must remain marked pending:
 - final production-submission ZIP and checksum;
 - automated GitHub Actions validation.
 
-## K. Status Vocabulary
+## K. Versioned Current Screenplay Formatting Package
+
+- Package path: `deliverables/current-screenplays/`
+- Contents: five DOCX files, five PDF files, `README.txt`, and `Reality_Fusion_Current_Screenplays_DOCX_PDF.zip`.
+- ZIP integrity: `VERIFIED COMPLETE` (archive opens and contains the same 11 package files).
+- DOCX container integrity: `VERIFIED COMPLETE` (five expected Office document containers opened successfully).
+- PDF readability: `VERIFIED COMPLETE` (five PDFs parsed successfully; page counts: EP1 18, EP2 18, EP3 33, EP4 19, EP5 21).
+- ZIP SHA-256: `6e2ec0310d405b1f0a452b024d16a0918b386b9646b934817e573e22baf731ad`.
+
+These are versioned formatting outputs for table read, page review, and specialist review. They do not establish production lock, validated runtime, or external specialist approval.
+
+## L. Status Vocabulary
 
 Use only these labels:
 
