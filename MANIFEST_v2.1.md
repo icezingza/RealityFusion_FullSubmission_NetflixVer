@@ -1,6 +1,6 @@
 # REALITY FUSION — VERIFIED REPOSITORY MANIFEST
 
-Version: 2.8  
+Version: 2.9  
 Verification date: 2026-08-06  
 Branch: `main`
 
@@ -16,7 +16,8 @@ This manifest records files whose existence or commit history has been verified 
 | EP1 historical | `screenplays/EP1/Reality_Fusion_EP1_Master_Draft_v2.0.md` | `28b05aa96cf48374cc59f3ba54fbba11a18c1b95` | PRESERVED HISTORY |
 | EP2 | `screenplays/EP2/Reality_Fusion_EP2_Master_Draft_v2.1.md` | `a9b4ec1623a0e50d4ae2260a2b52329b7d0bad16` | CURRENT — CONTROLLED DIALOGUE AND SAFEGUARDING POLISH |
 | EP2 historical | `screenplays/EP2/Reality_Fusion_EP2_Master_Draft_v2.0.md` | `e3815c6edcbd9852bf08b6e693b92b12e8d7015a` | PRESERVED HISTORY |
-| EP3 | `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.1.md` | `3cc9bac4a8f27908c28a98405dda89cd683bcdae` | CURRENT — CONTINUITY CORRECTION |
+| EP3 | `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.2.md` | `2c60859e1004718cf974d53104b112f8c6c76d10` | CURRENT — CONTINUITY AND CONTROLLED DIALOGUE POLISH |
+| EP3 historical | `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.1.md` | `3cc9bac4a8f27908c28a98405dda89cd683bcdae` | PRESERVED HISTORY — CONTINUITY CORRECTION |
 | EP3 historical | `screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.0.md` | `cc3c3df76f34145fa44945701f1968f763650356` | PRESERVED HISTORY |
 | EP4 | `screenplays/EP4/Reality_Fusion_EP4_Master_Draft_v2.0.md` | `c6bcc34bb561af732939f041907053c4d2f94cab` | CURRENT |
 | EP5 | `screenplays/EP5/Reality_Fusion_EP5_Master_Draft_v2.0.md` | `591a9d18850b339551ccdda0802b22215109603f` | CURRENT |
@@ -45,12 +46,11 @@ This manifest records files whose existence or commit history has been verified 
 
 Classification note:
 
-- `Reality_Fusion_Whole_Series_Review_v1.0.md` is an episode-level development review.
-- `Reality_Fusion_Dialogue_and_Runtime_Pass_v1.0.md` is a review framework and validation plan, not evidence that page audit, table read, or runtime validation has been completed.
-- `Reality_Fusion_Scene_Inventory_and_Structural_Audit_v1.0.md` inventories all 52 numbered scenes and records Objective / Conflict / Turning Point / Revision Risk for each scene.
-- `Reality_Fusion_Master_Draft_v2.1_Revision_Plan.md` records the creator-approved EP3 continuity correction and version-control boundaries.
-- EP1 and EP2 polish audits are the approved bases for the existing EP1 and EP2 v2.1 drafts.
-- EP3, EP4, and EP5 polish audits are verified review deliverables; their recommended screenplay revisions have not yet been applied.
+- The whole-series review is an episode-level development review.
+- The dialogue/runtime document is a framework and validation plan, not proof of completed table read or runtime validation.
+- The scene inventory covers all 52 numbered scenes.
+- EP1–EP5 dialogue-and-scene polish audits are verified review deliverables.
+- EP1, EP2, and EP3 recommendations have now been applied to current screenplay revisions.
 
 ## D. Verified Current-Canon Pitch Documents
 
@@ -93,9 +93,8 @@ The verified current documents consistently require:
 
 ### EP3/EP5 name conflict
 
-- EP3 v2.1 renames the pre-collapse student from `มิรา` to `พิม`.
+- EP3 uses `พิม` for the pre-collapse student.
 - EP5 retains `มิรา / Mira` as the survivor child 143 years later.
-- EP3 v2.0 remains preserved and unmodified.
 - Verification result: `PASS`.
 
 ### EP1 controlled dialogue polish
@@ -106,29 +105,35 @@ EP1 v2.1 exists on `main`, retains eight scenes and current Canon, and preserves
 
 EP2 v2.1 exists on `main`, retains nine scenes and current Canon, and preserves v2.0 as history. The safeguarding workflow remains a dramatic representation requiring qualified external review. Verification result: `PASS`.
 
-## H. Completed Remaining Dialogue Audits
+### EP3 controlled dialogue polish
 
-### EP3
+EP3 v2.2 was created from the verified EP3 v2.1 source and the approved EP3 polish audit.
 
-`reviews/EP3_Dialogue_and_Scene_Polish_Audit_v1.0.md`
+Applied scope:
 
-Review status: `VERIFIED COMPLETE`.
+- preserved all fourteen scenes and the 143-year / 31% continuity bridge;
+- retained the Phim continuity correction;
+- compressed repeated ethical explanation in Scenes 2, 5, 6, 7, 9, and 11;
+- preserved the strict boundary between original recordings and generated posthumous speech;
+- kept Khru Ba's death irreversible;
+- kept NaMo's grief visible through access requests, repeated verification, archive choices, and prioritization actions;
+- preserved distributed governance and the final refusal to include the voice model;
+- preserved v2.1 and v2.0 as revision history.
 
-Primary findings:
+Verification result: `PASS`.
 
-- reduce duplicate ethical explanation in Scenes 6, 7, 9, and 11;
-- preserve ordinary behavior around illness and death;
-- maintain the original-recording / generated-speech boundary;
-- keep grief visible through system action rather than humanized monologue;
-- obtain medical, palliative-care, Buddhist-practice, privacy, and governance specialist review.
+Important limitations:
+
+- cardiology, palliative-care, clinical procedure, Buddhist funeral practice, privacy, and governance terminology still require qualified external review;
+- no table-read or runtime claim is made.
+
+## H. Completed Dialogue Audits Awaiting Script Revision
 
 ### EP4
 
-`reviews/EP4_Dialogue_and_Scene_Polish_Audit_v1.0.md`
-
 Review status: `VERIFIED COMPLETE`.
 
-Primary findings:
+Pending screenplay actions:
 
 - reduce repeated explanation of recovery versus restoration;
 - differentiate Ethari and other researchers by objective and risk;
@@ -138,11 +143,9 @@ Primary findings:
 
 ### EP5
 
-`reviews/EP5_Dialogue_and_Scene_Polish_Audit_v1.0.md`
-
 Review status: `VERIFIED COMPLETE`.
 
-Primary findings:
+Pending screenplay actions:
 
 - reduce procedural exposition in Scenes 4–6;
 - give the elderly man a concrete survival-based argument for central restoration;
@@ -154,7 +157,6 @@ Primary findings:
 
 The following must remain marked pending:
 
-- EP3 dialogue polish beyond the approved continuity correction;
 - EP4 Master Draft v2.1;
 - EP5 Master Draft v2.1;
 - screenplay-formatted DOCX/PDF for every episode;
