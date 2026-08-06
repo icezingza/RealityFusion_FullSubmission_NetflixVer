@@ -1,0 +1,62 @@
+name: Build Current Screenplay Package
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'screenplays/EP1/Reality_Fusion_EP1_Master_Draft_v2.1.md'
+      - 'screenplays/EP2/Reality_Fusion_EP2_Master_Draft_v2.1.md'
+      - 'screenplays/EP3/Reality_Fusion_EP3_Master_Draft_v2.2.md'
+      - 'screenplays/EP4/Reality_Fusion_EP4_Master_Draft_v2.1.md'
+      - 'screenplays/EP5/Reality_Fusion_EP5_Master_Draft_v2.1.md'
+      - 'tools/build_screenplay_package.py'
+      - '.github/workflows/build-screenplay-package.yml'
+
+permissions:
+  contents: read
+
+env:
+  PYTHONUTF8: '1'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install document tools and Thai fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice-writer fonts-noto-core fonts-noto-extra
+          python -m pip install --upgrade pip
+          python -m pip install python-docx
+
+      - name: Build DOCX and PDF package
+        run: python tools/build_screenplay_package.py
+
+      - name: Verify outputs
+        run: |
+          test -f dist/screenplay-package/Reality_Fusion_Current_Screenplays_DOCX_PDF.zip
+          test "$(find dist/screenplay-package/docx -type f -name '*.docx' | wc -l)" -eq 5
+          test "$(find dist/screenplay-package/pdf -type f -name '*.pdf' | wc -l)" -eq 5
+          find dist/screenplay-package -type f -maxdepth 3 -print -exec ls -lh {} \;
+
+      - name: Upload screenplay package
+        uses: actions/upload-artifact@v4
+        with:
+          name: reality-fusion-current-screenplays-docx-pdf
+          path: |
+            dist/screenplay-package/docx/*.docx
+            dist/screenplay-package/pdf/*.pdf
+            dist/screenplay-package/README.txt
+            dist/screenplay-package/Reality_Fusion_Current_Screenplays_DOCX_PDF.zip
+          if-no-files-found: error
+          retention-days: 30
