@@ -1,6 +1,6 @@
 # REALITY FUSION — VERIFIED REPOSITORY MANIFEST
 
-Version: 3.2  
+Version: 3.3  
 Verification date: 2026-08-06  
 Branch: `main`
 
@@ -47,6 +47,12 @@ This manifest records files whose existence or commit history has been verified 
 - `reviews/EP5_Dialogue_and_Scene_Polish_Audit_v1.0.md`
 - `reviews/Reality_Fusion_Current_Draft_Set_Verification_v1.0.md`
 - `production/Reality_Fusion_Table_Read_and_Runtime_Protocol_v1.0.md`
+- `production/table-read/EP1_Table_Read_Log_v1.0.md`
+- `production/table-read/EP2_Table_Read_Log_v1.0.md`
+- `production/table-read/EP3_Table_Read_Log_v1.0.md`
+- `production/table-read/EP4_Table_Read_Log_v1.0.md`
+- `production/table-read/EP5_Table_Read_Log_v1.0.md`
+- `production/Reality_Fusion_Runtime_Report_Template_v1.0.md`
 
 Classification note:
 
@@ -56,7 +62,8 @@ Classification note:
 - EP1–EP5 dialogue-and-scene polish audits are verified review deliverables.
 - The approved recommendations have been applied to current screenplay revisions for all five episodes.
 - The current-draft verification identifies the only active script set authorized for subsequent formatting and runtime work.
-- The table-read/runtime protocol is verified present, but has not yet been executed.
+- The protocol, five episode logs, and consolidated runtime-report template are verified present as process-control documents.
+- Their existence does not prove that a timed table read has occurred.
 
 ## D. Verified Current-Canon Pitch Documents
 
@@ -131,11 +138,13 @@ Important limitation: governance, privacy, emergency-access, identity, and netwo
 
 ## I. Table Read and Runtime Status
 
-The following process control now exists:
+Process-control documents now exist for the complete series:
 
-- `production/Reality_Fusion_Table_Read_and_Runtime_Protocol_v1.0.md`
+- one protocol;
+- five episode-specific table-read logs;
+- one consolidated runtime-report template.
 
-Protocol status: `VERIFIED PRESENT`.
+Document status: `VERIFIED PRESENT`.
 
 Execution status:
 
@@ -144,7 +153,7 @@ Execution status:
 - EP3 timed table read: `PENDING EXTERNAL PROCESS`
 - EP4 timed table read: `PENDING EXTERNAL PROCESS`
 - EP5 timed table read: `PENDING EXTERNAL PROCESS`
-- consolidated runtime and spoken-dialogue report: `PENDING`
+- consolidated runtime report: `PENDING`
 
 No runtime, page-count, or production-duration claim is made.
 
@@ -154,7 +163,7 @@ The following must remain marked pending:
 
 - screenplay-formatted DOCX/PDF for every episode;
 - page counts and timed Thai table reads;
-- final runtime report;
+- completed final runtime report;
 - Buddhist terminology and monastic-practice review;
 - medical, palliative-care, child-safeguarding, privacy, technology, and AI-governance specialist reviews;
 - complete legacy-file migration;
