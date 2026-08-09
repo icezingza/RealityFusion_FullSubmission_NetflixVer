@@ -1,6 +1,6 @@
 # REALITY FUSION — VERIFIED REPOSITORY MANIFEST
 
-Version: 3.7
+Version: 3.8
 Verification date: 2026-08-06  
 Branch: `main`
 
@@ -87,6 +87,9 @@ English package:
 - `production/Reality_Fusion_Production_Breakdown_Starter_v1.0.md`
 - `production/Reality_Fusion_Production_Brief_v1.0.md`
 - `production/Reality_Fusion_Table_Read_Session_Pack_v1.0.md`
+- `rights/Reality_Fusion_Rights_Ledger_v1.0.md`
+- `rights/Reality_Fusion_Authorship_Evidence_Pack_v1.0.md`
+- `rights/Reality_Fusion_Asset_and_AI_Provenance_Register_v1.0.md`
 
 ## E. Verified Visual and Archive-Control Documents
 
