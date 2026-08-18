@@ -1,7 +1,7 @@
 # REALITY FUSION — VERIFIED REPOSITORY MANIFEST
 
-Version: 3.8
-Verification date: 2026-08-06  
+Version: 3.9
+Verification date: 2026-08-19  
 Branch: `main`
 
 ## Purpose
@@ -46,7 +46,10 @@ This manifest records files whose existence or commit history has been verified 
 - `reviews/EP4_Dialogue_and_Scene_Polish_Audit_v1.0.md`
 - `reviews/EP5_Dialogue_and_Scene_Polish_Audit_v1.0.md`
 - `reviews/Reality_Fusion_Current_Draft_Set_Verification_v1.0.md`
+- `reviews/Reality_Fusion_Specialist_Review_Matrix_v1.0.md`
 - `production/Reality_Fusion_Table_Read_and_Runtime_Protocol_v1.0.md`
+- `production/Reality_Fusion_Table_Read_Session_Pack_v1.0.md`
+- `production/Reality_Fusion_Table_Read_Execution_Gate_v1.0.md`
 - `production/table-read/EP1_Table_Read_Log_v1.0.md`
 - `production/table-read/EP2_Table_Read_Log_v1.0.md`
 - `production/table-read/EP3_Table_Read_Log_v1.0.md`
@@ -62,8 +65,9 @@ Classification note:
 - EP1–EP5 dialogue-and-scene polish audits are verified review deliverables.
 - The approved recommendations have been applied to current screenplay revisions for all five episodes.
 - The current-draft verification identifies the only active script set authorized for subsequent formatting and runtime work.
-- The protocol, five episode logs, and consolidated runtime-report template are verified present as process-control documents.
-- Their existence does not prove that a timed table read has occurred.
+- The protocol, session pack, execution gate, five episode logs, and consolidated runtime-report template are verified present as process-control documents.
+- The specialist-review matrix defines reviewer domains and evidence requirements; it does not represent completed external review.
+- Their existence does not prove that a timed table read or qualified specialist review has occurred.
 
 ## D. Verified Current-Canon Pitch Documents
 
@@ -86,7 +90,6 @@ English package:
 - `deliverables/pitch-deck/Reality_Fusion_Pitch_Deck_v1.0.pptx`
 - `production/Reality_Fusion_Production_Breakdown_Starter_v1.0.md`
 - `production/Reality_Fusion_Production_Brief_v1.0.md`
-- `production/Reality_Fusion_Table_Read_Session_Pack_v1.0.md`
 - `rights/Reality_Fusion_Rights_Ledger_v1.0.md`
 - `rights/Reality_Fusion_Authorship_Evidence_Pack_v1.0.md`
 - `rights/Reality_Fusion_Asset_and_AI_Provenance_Register_v1.0.md`
@@ -149,7 +152,9 @@ Important limitation: governance, privacy, emergency-access, identity, and netwo
 
 Process-control documents now exist for the complete series:
 
-- one protocol;
+- table-read and runtime protocol;
+- human-facilitation session pack;
+- execution acceptance gate;
 - five episode-specific table-read logs;
 - one consolidated runtime-report template.
 
@@ -164,22 +169,41 @@ Execution status:
 - EP5 timed table read: `PENDING EXTERNAL PROCESS`
 - consolidated runtime report: `PENDING`
 
-No runtime, page-count, or production-duration claim is made.
+The execution gate requires the current formatted PDF set, an independent timekeeper, complete per-episode timing fields, and explicit separation of correction time, interruptions, silence, archive audio, interface treatment, and visual-only adjustment.
 
-## J. Not Yet Verified as Complete
+No validated runtime or production-duration claim is made.
+
+## J. Specialist Review Status
+
+Review scope has been defined in `reviews/Reality_Fusion_Specialist_Review_Matrix_v1.0.md`.
+
+Required domains remain:
+
+- Buddhist terminology and monastic practice: `PENDING EXTERNAL REVIEW`
+- medical / cardiology: `PENDING EXTERNAL REVIEW`
+- palliative care / clinical death: `PENDING EXTERNAL REVIEW`
+- child safeguarding: `PENDING EXTERNAL REVIEW`
+- privacy / consent / data governance: `PENDING EXTERNAL REVIEW`
+- AI governance / contestability: `PENDING EXTERNAL REVIEW`
+- synthetic voice / digital identity: `PENDING EXTERNAL REVIEW`
+- technology / systems plausibility: `PENDING EXTERNAL REVIEW`
+- production feasibility: `PENDING EXTERNAL REVIEW`
+
+No external specialist opinion is recorded as completed in the repository at this manifest version.
+
+## K. Not Yet Verified as Complete
 
 The following must remain marked pending:
 
-- page counts and timed Thai table reads;
+- timed Thai table reads;
 - completed final runtime report;
-- Buddhist terminology and monastic-practice review;
-- medical, palliative-care, child-safeguarding, privacy, technology, and AI-governance specialist reviews;
+- all specialist-review domains listed in Section J;
 - complete legacy-file migration;
 - final legal documents with all blanks completed;
 - final production-submission ZIP and checksum;
-- automated GitHub Actions validation.
+- automated GitHub Actions validation for the final submission package.
 
-## K. Versioned Current Screenplay Formatting Package
+## L. Versioned Current Screenplay Formatting Package
 
 - Package path: `deliverables/current-screenplays/`
 - Contents: five DOCX files, five PDF files, `README.txt`, and `Reality_Fusion_Current_Screenplays_DOCX_PDF.zip`.
@@ -190,7 +214,7 @@ The following must remain marked pending:
 
 These are versioned formatting outputs for table read, page review, and specialist review. They do not establish production lock, validated runtime, or external specialist approval.
 
-## L. Status Vocabulary
+## M. Status Vocabulary
 
 Use only these labels:
 
@@ -202,4 +226,4 @@ Use only these labels:
 - `LEGACY` — historical material not part of current canon.
 - `PASS` — the specified verification condition has been met.
 
-Do not use `Production Ready`, `Locked`, or `Submission Ready` for the entire package until all items in Section J are resolved or explicitly waived by the creator.
+Do not use `Production Ready`, `Locked`, or `Submission Ready` for the entire package until all items in Section K are resolved or explicitly waived by the creator.
